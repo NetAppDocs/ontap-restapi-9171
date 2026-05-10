@@ -1,0 +1,32 @@
+---
+sidebar: sidebar
+api: true
+explorer: false
+permalink: 'view_webauthn_global_settings_for_a_cluster_and_all_svms.html'
+summary: 'View WebAuthn global settings for a cluster and all SVMs'
+---
+
+= View WebAuthn global settings for a cluster and all SVMs
+
+
+
+== Overview
+
+This API endpoint retrieves WebAuthn global settings for a cluster and all SVMs.
+
+== Examples
+
+=== Retrieving the WebAuthn global settings
+
+Retrieves all of the WebAuthn global settings for the cluster and all SVMs.
+
+----
+
+# The API:
+GET "/api/security/webauthn/global-settings"
+
+# The call to retrieve the WebAuthn global settings:
+curl -k https://<mgmt-ip>/api/security/webauthn/global-settings
+----
+
+

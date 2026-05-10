@@ -1,0 +1,15 @@
+---
+sidebar: sidebar
+api: true
+explorer: false
+permalink: 'delete_suspect_files.html'
+summary: 'Delete suspect files'
+---
+
+= Delete suspect files
+
+
+
+The suspects DELETE API clears all the suspect files for a volume from the list of potential suspects.
+
+
