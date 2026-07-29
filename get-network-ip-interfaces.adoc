@@ -595,11 +595,6 @@ a|
     }
   },
   "num_records": 1,
-  "recommend": {
-    "messages": [
-      {}
-    ]
-  },
   "records": [
     {
       "_links": {

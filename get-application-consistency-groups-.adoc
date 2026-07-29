@@ -3141,9 +3141,6 @@ The total number of volumes across all child consistency groups contained in a c
         "uuid": "02c9e252-41be-11e9-81d5-00a0986138f7"
       },
       "tiering": {
-        "object_stores": [
-          {}
-        ],
         "policy": "string"
       },
       "uuid": "1cd8a442-86d1-11e0-ae1c-123478563412",
@@ -3259,9 +3256,6 @@ The total number of volumes across all child consistency groups contained in a c
             "used": 0
           },
           "tiering": {
-            "object_stores": [
-              {}
-            ],
             "policy": "string"
           },
           "uuid": "028baa66-41bd-11e9-81d5-00a0986138f7"
@@ -3497,9 +3491,6 @@ The total number of volumes across all child consistency groups contained in a c
     "uuid": "02c9e252-41be-11e9-81d5-00a0986138f7"
   },
   "tiering": {
-    "object_stores": [
-      {}
-    ],
     "policy": "string"
   },
   "uuid": "1cd8a442-86d1-11e0-ae1c-123478563412",
@@ -3616,9 +3607,6 @@ The total number of volumes across all child consistency groups contained in a c
         "used": 0
       },
       "tiering": {
-        "object_stores": [
-          {}
-        ],
         "policy": "string"
       },
       "uuid": "028baa66-41bd-11e9-81d5-00a0986138f7"
