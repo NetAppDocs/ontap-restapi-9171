@@ -315,11 +315,6 @@ a|
 [source,json,subs=+macros]
 {
   "num_records": 1,
-  "recommend": {
-    "messages": [
-      {}
-    ]
-  },
   "records": [
     {
       "dns_zone": "storage.company.com",
