@@ -2,7 +2,7 @@
 settings:
   name: REST API reference
   downlevel: true
-  lipi_enabled: false
+  lipi_enabled: true
   github_edit: false
   internal:
     pdf_enabled: true
@@ -2097,7 +2097,7 @@ sidebar:
       - title: Forward audit logs to syslog/splunk servers
         entries:
         - title: Overview
-          url: "/forward_audit_logs_to_syslog/splunk_servers.html"
+          url: "/forward_audit_logs_to_syslog_splunk_servers.html"
         - title: Define a remote syslog or splunk server to receive audit information
           url: "/get-security-audit-destinations.html"
         - title: Define the remote syslog or splunk server information
@@ -2153,7 +2153,7 @@ sidebar:
       - title: View and update OAuth 2.0 status
         entries:
         - title: Overview
-          url: "/view_and_update_oauth_2.0_status.html"
+          url: "/view_and_update_oauth_2_0_status.html"
         - title: Retrieve the OAuth 2.0 status
           url: "/get-security-authentication-cluster-oauth2.html"
         - title: Update the OAuth 2.0 status
@@ -2161,7 +2161,7 @@ sidebar:
       - title: View and create OAuth 2.0 configurations
         entries:
         - title: Overview
-          url: "/view_and_create_oauth_2.0_configurations.html"
+          url: "/view_and_create_oauth_2_0_configurations.html"
         - title: Retrieve all OAuth 2.0 configurations
           url: "/get-security-authentication-cluster-oauth2-clients.html"
         - title: Create the OAuth 2.0 configuration
@@ -2169,7 +2169,7 @@ sidebar:
       - title: View and delete an OAuth 2.0 configuration
         entries:
         - title: Overview
-          url: "/view_and_delete_an_oauth_2.0_configuration.html"
+          url: "/view_and_delete_an_oauth_2_0_configuration.html"
         - title: Delete an OAuth 2.0 configuration
           url: "/delete-security-authentication-cluster-oauth2-clients-.html"
         - title: Retrieve an OAuth 2.0 configuration with the specified name
@@ -2241,7 +2241,7 @@ sidebar:
       - title: Manage authentication keys (for admins)
         entries:
         - title: Overview
-          url: "/manage_authentication_keys_(for_admins).html"
+          url: "/manage_authentication_keys_for_admins_.html"
         - title: Retrieve public keys configured for user accounts
           url: "/get-security-authentication-publickeys.html"
         - title: Create a public key for a user account
@@ -2249,7 +2249,7 @@ sidebar:
       - title: Manage authentication keys (end-users)
         entries:
         - title: Overview
-          url: "/manage_authentication_keys_(end-users).html"
+          url: "/manage_authentication_keys_end-users_.html"
         - title: Delete a public key for a user account
           url: "/delete-security-authentication-publickeys--.html"
         - title: Retrieve public keys configured for a user account

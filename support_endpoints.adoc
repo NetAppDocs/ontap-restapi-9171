@@ -7,6 +7,7 @@ summary: 'ONTAP REST API support endpoints'
 ---
 
 = ONTAP REST API support endpoints
+:imagesdir: ./media/
 
 
 
