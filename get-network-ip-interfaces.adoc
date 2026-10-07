@@ -7,6 +7,7 @@ summary: 'Retrieve all IP interface details'
 ---
 
 = Retrieve all IP interface details
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/network/ip/interfaces`#
 
@@ -595,6 +596,11 @@ a|
     }
   },
   "num_records": 1,
+  "recommend": {
+    "messages": [
+      {}
+    ]
+  },
   "records": [
     {
       "_links": {

@@ -7,6 +7,7 @@ summary: 'Retrieve public keys configured for user accounts'
 ---
 
 = Retrieve public keys configured for user accounts
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/authentication/publickeys`#
 
@@ -20,7 +21,7 @@ Retrieves the public keys configured for user accounts.
 
 == Learn more
 
-* link:manage_authentication_keys_(for_admins).html[DOC /security/authentication/publickeys]
+* link:manage_authentication_keys_for_admins_.html[DOC /security/authentication/publickeys]
 * link:manage_security-related_accounts.html[DOC /security/accounts]
 
 

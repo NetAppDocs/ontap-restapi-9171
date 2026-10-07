@@ -2,11 +2,12 @@
 sidebar: sidebar
 api: true
 explorer: false
-permalink: 'view_and_delete_an_oauth_2.0_configuration.html'
+permalink: 'view_and_delete_an_oauth_2_0_configuration.html'
 summary: 'View and delete an OAuth 2.0 configuration'
 ---
 
 = View and delete an OAuth 2.0 configuration
+:imagesdir: ./media/
 
 
 

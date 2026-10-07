@@ -2,11 +2,12 @@
 sidebar: sidebar
 api: true
 explorer: false
-permalink: 'view_and_update_oauth_2.0_status.html'
+permalink: 'view_and_update_oauth_2_0_status.html'
 summary: 'View and update OAuth 2.0 status'
 ---
 
 = View and update OAuth 2.0 status
+:imagesdir: ./media/
 
 
 

@@ -7,6 +7,7 @@ summary: 'Create a public key for a user account'
 ---
 
 = Create a public key for a user account
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/security/authentication/publickeys`#
 
@@ -32,7 +33,7 @@ Creates a public key along with an optional certificate for a user account.
 
 == Learn more
 
-* link:manage_authentication_keys_(for_admins).html[DOC /security/authentication/publickeys]
+* link:manage_authentication_keys_for_admins_.html[DOC /security/authentication/publickeys]
 * link:manage_security-related_accounts.html[DOC /security/accounts]
 
 
