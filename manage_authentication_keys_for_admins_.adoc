@@ -2,11 +2,12 @@
 sidebar: sidebar
 api: true
 explorer: false
-permalink: 'manage_authentication_keys_(for_admins).html'
+permalink: 'manage_authentication_keys_for_admins_.html'
 summary: 'Manage authentication keys (for admins)'
 ---
 
 = Manage authentication keys (for admins)
+:imagesdir: ./media/
 
 
 

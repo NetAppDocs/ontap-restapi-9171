@@ -15,6 +15,7 @@ summary: '
 
 
 
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/application/containers`#
 

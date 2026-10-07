@@ -7,6 +7,7 @@ summary: 'Update a public key for a user account'
 ---
 
 = Update a public key for a user account
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/security/authentication/publickeys/{owner.uuid}/{account.name}/{index}`#
 
@@ -20,7 +21,7 @@ Updates the public key and/or certificate for a user account.
 
 == Learn more
 
-* link:manage_authentication_keys_(end-users).html[DOC /security/authentication/publickeys/{owner.uuid}/{account.name}/\{index}]
+* link:manage_authentication_keys_end-users_.html[DOC /security/authentication/publickeys/{owner.uuid}/{account.name}/\{index}]
 * link:manage_security-related_accounts.html[DOC /security/accounts]
 
 

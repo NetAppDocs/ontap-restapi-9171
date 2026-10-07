@@ -7,6 +7,7 @@ summary: 'Retrieve details of a collection or consistency group'
 ---
 
 = Retrieve details of a collection or consistency group
+:imagesdir: ./media/
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/application/consistency-groups`#
 
@@ -3039,6 +3040,9 @@ a|
             "uuid": "02c9e252-41be-11e9-81d5-00a0986138f7"
           },
           "tiering": {
+            "object_stores": [
+              {}
+            ],
             "policy": "string"
           },
           "uuid": "1cd8a442-86d1-11e0-ae1c-123478563412",
@@ -3154,6 +3158,9 @@ a|
                 "used": 0
               },
               "tiering": {
+                "object_stores": [
+                  {}
+                ],
                 "policy": "string"
               },
               "uuid": "028baa66-41bd-11e9-81d5-00a0986138f7"
@@ -3389,6 +3396,9 @@ a|
         "uuid": "02c9e252-41be-11e9-81d5-00a0986138f7"
       },
       "tiering": {
+        "object_stores": [
+          {}
+        ],
         "policy": "string"
       },
       "uuid": "1cd8a442-86d1-11e0-ae1c-123478563412",
@@ -3505,6 +3515,9 @@ a|
             "used": 0
           },
           "tiering": {
+            "object_stores": [
+              {}
+            ],
             "policy": "string"
           },
           "uuid": "028baa66-41bd-11e9-81d5-00a0986138f7"
@@ -3949,7 +3962,7 @@ This array contains only the direct children of the initiator group. If the memb
 
 Zero or more nested initiator groups can be supplied when the initiator group is created. The initiator group will act as if it contains the aggregation of all initiators in any nested initiator groups.
 
-After creation, nested initiator groups can be added or removed from the initiator group using the `/protocols/san/igroups/{igroup.uuid}/igroups` endpoint. See link:post-protocols-san-igroups-igroups(#-san-igroup-nested-create)anddelete-protocols-san-igroups-igroups-.html<</SAN/igroup_nested_create,POST /protocols/san/igroups/{igroup.uuid}/igroups>> and [DELETE /protocols/san/igroups/{igroup.uuid}/igroups/\{uuid}]  for more details.
+After creation, nested initiator groups can be added or removed from the initiator group using the `/protocols/san/igroups/{igroup.uuid}/igroups` endpoint. See link:post-protocols-san-igroups-igroups_-san-igroup-nested-create_anddelete-protocols-san-igroups-igroups-.html<</SAN/igroup_nested_create,POST /protocols/san/igroups/{igroup.uuid}/igroups>> and [DELETE /protocols/san/igroups/{igroup.uuid}/igroups/\{uuid}]  for more details.
 
 
 |initiators
