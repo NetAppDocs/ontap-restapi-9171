@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-san-fcp-services.html'
+keywords: 'fc protocol,fc services,protocol services,service retrieval,fc statistics,fc metrics'
 summary: 'Retrieve FC protocol services'
 ---
 
 = Retrieve FC protocol services
 :imagesdir: ./media/
 
+[.lead]
+Retrieves FC protocol services to view their current configuration and operational state within your storage environment.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/san/fcp/services`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves FC Protocol services.
+ONTAP 9.6
 
 == Expensive properties
 

@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-san-portsets.html'
+keywords: 'portsets,retrieves portsets,san protocols,ontap portset,san portset'
 summary: 'Retrieve portsets'
 ---
 
 = Retrieve portsets
 :imagesdir: ./media/
 
+[.lead]
+Retrieves portsets to access detailed configurations and manage network interfaces effectively. Use this endpoint to examine existing portsets and optimize your network settings.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/san/portsets`#
 
-*Introduced In:* 9.9
+== Introduced in
 
-Retrieves portsets.
+ONTAP 9.9
 
 == Related ONTAP commands
 
@@ -599,7 +605,7 @@ a|An array initiator groups to which the portset is bound.
 |array[link:#interfaces[interfaces]]
 a|An array of network interfaces that are members of the portset. These are the only network interfaces through which the initiators of a bound igroup can access mapped LUNs.
 
-Zero or more network interfaces can be supplied when the portset is created. After creation, network interfaces can be added or removed from the portset using the `/protocols/san/portsets/{portset.uuid}/interfaces` endpoint. See link:post-protocols-san-portsets-interfaces_-san-portset-interface-create_anddelete-protocols-san-portsets-interfaces-.html<</SAN/portset_interface_create,POST /protocols/san/portsets/{portset.uuid}/interfaces>> and [DELETE /protocols/san/portsets/{portset.uuid}/interfaces/\{uuid}]  for more details.
+Zero or more network interfaces can be supplied when the portset is created. After creation, network interfaces can be added or removed from the portset using the `/protocols/san/portsets/{portset.uuid}/interfaces` endpoint. See link:post-protocols-san-portsets-interfaces.html[POST /protocols/san/portsets/{portset.uuid}/interfaces]  and link:delete-protocols-san-portsets-interfaces-.html[DELETE /protocols/san/portsets/{portset.uuid}/interfaces/\{uuid}]  for more details.
 
 
 |name

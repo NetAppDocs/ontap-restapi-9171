@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_cluster_ntp_servers.html'
+keywords: 'cluster ntp,ntp configuration,external ntp,ntp key,shared key'
 summary: 'Manage cluster NTP servers'
 ---
 
 = Manage cluster NTP servers
 :imagesdir: ./media/
 
-
+[.lead]
+Manage cluster NTP servers to configure external time sources, update settings, and use authentication keys. Retrieve the current NTP configuration or modify existing servers to ensure accurate time synchronization across your cluster.
 
 == Overview
 

@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-name-services-dns.html'
+keywords: 'dns configuration,svm dns,domain server,ipv6 enabled,dns server validation'
 summary: 'Create DNS domain and server configurations'
 ---
 
 = Create DNS domain and server configurations
 :imagesdir: ./media/
 
+[.lead]
+Creates DNS domain and server configurations for an SVM to define how the SVM interacts with a specific DNS infrastructure. This configuration is essential for ensuring DNS resolution within the network environment.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/name-services/dns`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Creates DNS domain and server configurations for an SVM.
+ONTAP 9.6
 
 == Important notes
 

@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_cifs_unix_symlink_mapping.html'
+keywords: 'cifs unix symlink,unix symlink mapping,smb symbolic links,relative symbolic links,absolute symbolic links,widelink locality'
 summary: 'Manage CIFS UNIX symlink mapping'
 ---
 
 = Manage CIFS UNIX symlink mapping
 :imagesdir: ./media/
 
-
+[.lead]
+Manage UNIX symbolic link mappings for CIFS shares to facilitate access between CIFS and NFS protocols. Use these endpoints to create, retrieve, update, and delete symbolic links, ensuring seamless redirection to target files or directories across volumes and Storage Virtual Machines (SVMs).
 
 == Overview
 

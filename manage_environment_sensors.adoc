@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_environment_sensors.html'
+keywords: 'environment sensors, platform sensors, node sensor, sensor details, sensor voltage'
 summary: 'Manage environment sensors'
 ---
 
 = Manage environment sensors
 :imagesdir: ./media/
 
-
+[.lead]
+Access and retrieve details from environment sensors within your platform using this API. This functionality aids in monitoring and ensuring the operational health of your system.
 
 = Overview
 

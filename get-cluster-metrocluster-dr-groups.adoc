@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-cluster-metrocluster-dr-groups.html'
+keywords: 'metrocluster dr group,metrocluster ip configuration,dr group retrieval,partner cluster filter,record limit'
 summary: 'Retrieve all DR groups in a MetroCluster IP configuration'
 ---
 
 = Retrieve all DR groups in a MetroCluster IP configuration
 :imagesdir: ./media/
 
+[.lead]
+Retrieves all DR groups in a MetroCluster IP configuration to view the current group arrangements and settings. This is useful when managing and monitoring disaster recovery configurations across your MetroCluster setup.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cluster/metrocluster/dr-groups`#
 
-*Introduced In:* 9.8
+== Introduced in
+
+ONTAP 9.8
+
+== Usage notes
 
 Retrieves all the DR group in the MetroCluster over IP configuration.
 

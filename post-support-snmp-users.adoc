@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-support-snmp-users.html'
+keywords: 'snmp user,cluster scoped,switch address,snmpv3 credentials,community user,privacy protocol'
 summary: 'Create a cluster-scoped or an SVM-scoped SNMP user'
 ---
 
 = Create a cluster-scoped or an SVM-scoped SNMP user
 :imagesdir: ./media/
 
+[.lead]
+Creates an SNMP user scoped to either the cluster or an SVM, supporting SNMPv1, SNMPv2c, and SNMPv3 protocols. Use this when adding or managing SNMP users within your ONTAP environment.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/support/snmp/users`#
 
-*Introduced In:* 9.7
+== Introduced in
+
+ONTAP 9.7
+
+== Usage notes
 
 Creates either a cluster-scoped or an SVM-scoped SNMP user. This user can be an SNMPv1 or SNMPv2c community user or an SNMPv3 user. An SNMPv3 user can be a local SNMPv3 user or a remote SNMPv3 user.
 

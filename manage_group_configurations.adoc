@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_group_configurations.html'
+keywords: 'group configurations,manage groups,azure group,security groups,group creation'
 summary: 'Manage group configurations'
 ---
 
 = Manage group configurations
 :imagesdir: ./media/
 
-
+[.lead]
+Manage group configurations in ONTAP using this API. Create and retrieve configurations to organize and control access within your environment.
 
 === Overview
 

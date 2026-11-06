@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_file_security_permissions_and_audit_policies.html'
+keywords: 'file security, audit policies, ntfs permissions, access control, security descriptor'
 summary: 'Manage file security permissions and audit policies'
 ---
 
 = Manage file security permissions and audit policies
 :imagesdir: ./media/
 
-
+[.lead]
+Manage file security permissions and audit policies directly through the REST API to create and apply NTFS security descriptors without needing a client. Simplify the process of configuring access control lists with minimal parameters, and utilize storage-level access guard (SLAG) for enhanced security management.
 
 == Overview
 

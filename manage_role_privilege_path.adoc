@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_role_privilege_path.html'
+keywords: 'role privilege,resource path,access level,snapshots management,file system analytics'
 summary: 'Manage role privilege path'
 ---
 
 = Manage role privilege path
 :imagesdir: ./media/
 
-
+[.lead]
+Manage role privilege paths to retrieve, modify, or delete access levels associated with REST API paths or command directory paths within a role. Use these endpoints to handle access for resource-qualified endpoints, including snapshots and file system analytics, across volumes and SVMs.
 
 == Overview
 

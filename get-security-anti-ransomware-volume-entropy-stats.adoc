@@ -3,18 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-security-anti-ransomware-volume-entropy-stats.html'
+keywords: 'data entropy,volume stats,ransomware protection,volume encryption,entropy analysis'
 summary: 'Retrieve data-entropy statistics for volumes'
 ---
 
 = Retrieve data-entropy statistics for volumes
 :imagesdir: ./media/
 
+[.lead]
+Retrieves data-entropy statistics for volumes to analyze the integrity and consistency of stored data. This information helps you monitor potential data issues and ensure reliable storage performance.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/anti-ransomware/volume/entropy-stats`#
 
-*Introduced In:* 9.17
+== Introduced in
 
-Retrieves the data-entropy statistics for the volumes.
-
+ONTAP 9.17
 
 == Parameters
 

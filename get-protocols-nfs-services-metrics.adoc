@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-nfs-services-metrics.html'
+keywords: 'nfs metrics,svm performance,historical data,nfs latency,nfs throughput,nfs iops'
 summary: 'Retrieve NFS protocol historical performance metrics'
 ---
 
 = Retrieve NFS protocol historical performance metrics
 :imagesdir: ./media/
 
+[.lead]
+Retrieves historical performance metrics for the NFS protocol associated with a Storage Virtual Machine (SVM). Access these metrics to analyze past NFS activity and performance trends.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/nfs/services/{svm.uuid}/metrics`#
 
-*Introduced In:* 9.7
+== Introduced in
+
+ONTAP 9.7
+
+== Usage notes
 
 Retrieves historical performance metrics for the NFS protocol of an SVM.
 

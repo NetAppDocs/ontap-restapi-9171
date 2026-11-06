@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-name-services-ldap-schemas.html'
+keywords: 'ldap schemas,retrieve ldap,ldap client schema,ldap filters,ontap ldap'
 summary: 'Retrieve all LDAP schemas'
 ---
 
 = Retrieve all LDAP schemas
 :imagesdir: ./media/
 
+[.lead]
+Accesses all LDAP schemas to examine the configurations used for LDAP directory services. This information helps you ensure accurate integration and management of LDAP resources.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/name-services/ldap-schemas`#
 
-*Introduced In:* 9.11
+== Introduced in
+
+ONTAP 9.11
+
+== Usage notes
 
 Retrieves all the LDAP schemas.
 

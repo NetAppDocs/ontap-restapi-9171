@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_local_users.html'
+keywords: 'cifs authentication, local user management, svm access rights, cifs authorization, storage virtual machine users'
 summary: 'Manage local users'
 ---
 
 = Manage local users
 :imagesdir: ./media/
 
-
+[.lead]
+Access and manage local user configurations to control CIFS authentication and authorization on your storage virtual machines (SVMs). Use these endpoints to retrieve, create, update, and delete local user information necessary for determining access rights to CIFS shares and directories.
 
 == Overview
 

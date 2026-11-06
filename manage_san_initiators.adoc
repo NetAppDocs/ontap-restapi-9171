@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_san_initiators.html'
+keywords: 'fibre channel, iscsi qualified name, san initiator, initiator group, svm scoped activity'
 summary: 'Manage SAN initiators'
 ---
 
 = Manage SAN initiators
 :imagesdir: ./media/
 
-
+[.lead]
+Manage SAN initiators to identify host endpoints and control access to LUNs within your storage environment. Use these endpoints to configure properties for initiators scoped to specific SVMs, ensuring consistent management across various interactions and initiator groups.
 
 == Overview
 

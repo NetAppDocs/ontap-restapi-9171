@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-active-directory-preferred-domain-controllers.html'
+keywords: 'active directory,preferred domain controllers,svm configuration,domain controller settings,preferred dc,svm uuid'
 summary: 'Retrieve an Active Directory preferred DC configuration for an SVM'
 ---
 
 = Retrieve an Active Directory preferred DC configuration for an SVM
 :imagesdir: ./media/
 
+[.lead]
+Accesses the Active Directory preferred domain controller configuration for a Storage Virtual Machine (SVM). This can be useful for understanding domain controller preferences in your network environment.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/active-directory/{svm.uuid}/preferred-domain-controllers`#
 
-*Introduced In:* 9.12
+== Introduced in
+
+ONTAP 9.12
+
+== Usage notes
 
 Retrieves the Active Directory preferred DC configuration of an SVM.
 

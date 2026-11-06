@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_disks.html'
+keywords: 'storagedisks,manage disks,retrieve disk,modify disk,update ownership,sanitize disk'
 summary: 'Manage disks'
 ---
 
 = Manage disks
 :imagesdir: ./media/
 
-
+[.lead]
+Retrieve storage disk information to access details about all the disks in your cluster. Use these endpoints to monitor disk status and manage disk-related tasks effectively.
 
 == Retrieving storage disk information
 

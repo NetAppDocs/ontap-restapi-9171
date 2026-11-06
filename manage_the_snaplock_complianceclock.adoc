@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_the_snaplock_complianceclock.html'
+keywords: 'snaplock, complianceclock, expiry time, initialize clock, cluster health'
 summary: 'Manage the SnapLock ComplianceClock'
 ---
 
 = Manage the SnapLock ComplianceClock
 :imagesdir: ./media/
 
-
+[.lead]
+Manage the SnapLock ComplianceClock to determine and set the expiry time for SnapLock objects in your system. Use these endpoints to initialize or re-initialize the ComplianceClock under specific conditions, ensuring the appropriate state of nodes, volumes, and buckets.
 
 This API manages the ComplianceClock of the system. ComplianceClock determines the expiry time of the SnapLock objects in the system. The user can initialize the ComplianceClock. The ComplianceClock can be re-initialized if all nodes in the cluster are healthy, all volumes are in online state, no volumes are present in the volume recovery queue and there are no SnapLock volumes or volumes with "snapshot-locking-enabled" set to true or S3 buckets with object locking enabled.
 

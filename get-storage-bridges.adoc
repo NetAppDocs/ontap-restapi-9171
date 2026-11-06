@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-bridges.html'
+keywords: 'storage bridges,bridge collection,dram error,chassis throughput,power supply state,temperature sensor'
 summary: 'Retrieve a collection of bridges'
 ---
 
 = Retrieve a collection of bridges
 :imagesdir: ./media/
 
+[.lead]
+Retrieves information about all available bridges, which can be useful for monitoring and managing bridge configurations within your storage environment.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/bridges`#
 
-*Introduced In:* 9.9
+== Introduced in
+
+ONTAP 9.9
+
+== Usage notes
 
 Retrieves a collection of bridges.
 

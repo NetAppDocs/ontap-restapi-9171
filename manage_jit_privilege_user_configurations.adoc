@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_jit_privilege_user_configurations.html'
+keywords: 'jit privilege,user session,session configuration,privilege management,elevated session'
 summary: 'Manage JIT privilege user configurations'
 ---
 
 = Manage JIT privilege user configurations
 :imagesdir: ./media/
 
-
+[.lead]
+Configure, retrieve, and manage JIT privilege session information for users with these endpoints. Use them when you need to set up or modify elevated session configurations based on specific user requirements within your ONTAP environment.
 
 == Overview
 

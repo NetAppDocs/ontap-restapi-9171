@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-nfs-export-policies-rules.html'
+keywords: 'nfs export rules,export policy rules,policy id,nfs export policy,svm filter,export policy'
 summary: 'Retrieve export policy rules'
 ---
 
 = Retrieve export policy rules
 :imagesdir: ./media/
 
+[.lead]
+Accesses export policy rules to understand the permissions and configurations applied to NFS exports. This helps you manage and troubleshoot access control settings for specific network clients and protocols.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/nfs/export-policies/{policy.id}/rules`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves export policy rules.
 

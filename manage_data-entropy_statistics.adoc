@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_data-entropy_statistics.html'
+keywords: 'data entropy,encrypted data,volume level,entropy statistics,high encryption percentage,anti ransomware'
 summary: 'Manage data-entropy statistics'
 ---
 
 = Manage data-entropy statistics
 :imagesdir: ./media/
 
-
+[.lead]
+Retrieve and analyze data-entropy statistics to assess the encryption level of your volumes over various time intervals. Use these endpoints to identify periods with significant changes in encryption percentage and ensure data security across your ONTAP environment.
 
 == Overview
 

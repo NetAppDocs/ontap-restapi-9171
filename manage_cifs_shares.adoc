@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_cifs_shares.html'
+keywords: 'cifs shares, smb permissions, svm volume, share creation, acls configuration'
 summary: 'Manage CIFS shares'
 ---
 
 = Manage CIFS shares
 :imagesdir: ./media/
 
-
+[.lead]
+Manage CIFS shares to control access to data on the CIFS server over SMB. Create, update, and remove shares, and assign permissions to ensure proper access and security within your storage environment.
 
 == Overview
 

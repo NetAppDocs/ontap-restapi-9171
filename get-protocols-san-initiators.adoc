@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-san-initiators.html'
+keywords: 'initiator retrieval,san protocols,initiator filter,lun igroup,initiator show'
 summary: 'Retrieve initiators'
 ---
 
 = Retrieve initiators
 :imagesdir: ./media/
 
+[.lead]
+Retrieves initiator information to access details about connected devices in your storage network. This helps you manage and configure initiators for effective storage operations.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/san/initiators`#
 
-*Introduced In:* 9.14
+== Introduced in
+
+ONTAP 9.14
+
+== Usage notes
 
 Retrieves initiators.
 

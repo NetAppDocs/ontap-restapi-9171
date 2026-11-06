@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'display_netgroup_file_details.html'
+keywords: 'netgroup file,netgroup details,svm netgroup,netgroup retrieval,netgroup deletion'
 summary: 'Display netgroup file details'
 ---
 
 = Display netgroup file details
 :imagesdir: ./media/
 
-
+[.lead]
+Access detailed information about netgroup files within a specific SVM by retrieving their status or raw content. Use these endpoints to manage netgroup file configurations effectively within your network environment.
 
 == Overview
 

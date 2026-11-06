@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_storage_volumes.html'
+keywords: 'flexvol management, flexgroup scalability, snaplock compliance, storage efficiency, qos policies'
 summary: 'Manage storage volumes'
 ---
 
 = Manage storage volumes
 :imagesdir: ./media/
 
-
+[.lead]
+Manage ONTAP storage volumes to serve data efficiently in NAS and SAN environments. Use these APIs to create, modify, and monitor various volume types, including FlexVol, FlexGroup, FlexClone, and SnapLock, for scalability and performance.
 
 == Overview
 

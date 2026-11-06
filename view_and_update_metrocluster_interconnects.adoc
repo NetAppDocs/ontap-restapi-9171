@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_and_update_metrocluster_interconnects.html'
+keywords: 'metrocluster interconnects, modify interconnect, interconnect status, netmask gateway, iwarp adapter'
 summary: 'View and update MetroCluster interconnects'
 ---
 
 = View and update MetroCluster interconnects
 :imagesdir: ./media/
 
-
+[.lead]
+Explore and update MetroCluster interconnects to manage their status and configuration details. Retrieve comprehensive lists or query individual interconnects to display their current status and modify essential network settings like address, netmask, and gateway for optimized connectivity.
 
 == Overview
 

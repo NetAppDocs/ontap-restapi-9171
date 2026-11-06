@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_aws_kms.html'
+keywords: 'aws kms,customer master key,secure store,secrets management,encryption keys,proxy configuration'
 summary: 'Manage AWS KMS'
 ---
 
 = Manage AWS KMS
 :imagesdir: ./media/
 
-
+[.lead]
+Integrate AWS Key Management Services with ONTAP to securely store encryption keys. Use these endpoints to create, manage, and retrieve AWS KMS configurations, ensuring your encryption keys remain protected within a cloud environment.
 
 == Overview
 

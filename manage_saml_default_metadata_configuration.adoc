@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_saml_default_metadata_configuration.html'
+keywords: 'saml metadata,metadata configuration,cluster security,saml certificate,metadata management'
 summary: 'Manage SAML default metadata configuration'
 ---
 
 = Manage SAML default metadata configuration
 :imagesdir: ./media/
 
-
+[.lead]
+Manage the SAML default metadata configuration within your cluster using this API. Create or delete the configuration as needed to maintain accurate authentication settings.
 
 == Overview
 

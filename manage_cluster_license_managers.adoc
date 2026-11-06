@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_cluster_license_managers.html'
+keywords: 'cluster licensing,license manager,capacity pools,ontap select,deploy vm'
 summary: 'Manage cluster license managers'
 ---
 
 = Manage cluster license managers
 :imagesdir: ./media/
 
-
+[.lead]
+Manage license manager instances for your cluster to ensure proper configuration and operation under the capacity pools licensing model. Use this API to update the license manager IP address when there is a change in the Deploy VM's IP address.
 
 == Overview
 

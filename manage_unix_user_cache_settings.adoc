@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_unix_user_cache_settings.html'
+keywords: 'unix user cache,cache settings,svm cache,retrieve cache,update settings'
 summary: 'Manage UNIX user cache settings'
 ---
 
 = Manage UNIX user cache settings
 :imagesdir: ./media/
 
-
+[.lead]
+Manage UNIX user cache settings by retrieving and updating configuration parameters within your ONTAP environment. Use these endpoints to optimize performance and control caching behavior for UNIX user data across different storage virtual machines (SVMs).
 
 == Overview
 

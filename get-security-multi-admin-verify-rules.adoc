@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-security-multi-admin-verify-rules.html'
+keywords: 'multi admin rules,admin verification,security rules,retrieve rules,approval groups,execution expiry'
 summary: 'Retrieve multi-admin-verify rules'
 ---
 
 = Retrieve multi-admin-verify rules
 :imagesdir: ./media/
 
+[.lead]
+Retrieves multi-admin verification rules to review the configurations that require multiple administrator approvals for certain operations.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/multi-admin-verify/rules`#
 
-*Introduced In:* 9.11
+== Introduced in
+
+ONTAP 9.11
+
+== Usage notes
 
 Retrieves multi-admin-verify rules.
 

@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-shelves.html'
+keywords: 'shelf collection,retrieve shelves,storage shelves,shelf vendor,ontap shelf'
 summary: 'Retrieve shelves'
 ---
 
 = Retrieve shelves
 :imagesdir: ./media/
 
+[.lead]
+Retrieves a collection of storage shelves to view the configuration and status of your shelves.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/shelves`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves a collection of shelves.
 

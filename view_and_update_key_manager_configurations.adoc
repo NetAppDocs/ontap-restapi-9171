@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_and_update_key_manager_configurations.html'
+keywords: 'key management,cluster configuration,key manager,health monitor,kms settings'
 summary: 'View and update key manager configurations'
 ---
 
 = View and update key manager configurations
 :imagesdir: ./media/
 
-
+[.lead]
+Access and modify key management configuration settings to optimize security measures within your ONTAP environment. Use these endpoints to retrieve current configurations or update options such as health monitor policies and retry counts for cloud key management.
 
 == Overview
 

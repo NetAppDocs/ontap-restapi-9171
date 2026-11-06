@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'forward_audit_logs_to_syslog_splunk_servers.html'
+keywords: 'audit logs,syslog servers,splunk servers,remote destination,log forwarding,server configuration'
 summary: 'Forward audit logs to syslog/splunk servers'
 ---
 
 = Forward audit logs to syslog/splunk servers
 :imagesdir: ./media/
 
-
+[.lead]
+Use this API to control the forwarding of audit log information to remote syslog and Splunk servers. You can configure multiple destinations, ensuring all audit records are sent to each location for comprehensive monitoring and analysis.
 
 == Overview
 

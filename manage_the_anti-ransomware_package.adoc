@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_the_anti-ransomware_package.html'
+keywords: 'anti-ransomware,package version,security package,update package,cluster nodes'
 summary: 'Manage the anti-ransomware package'
 ---
 
 = Manage the anti-ransomware package
 :imagesdir: ./media/
 
-
+[.lead]
+Use the anti-ransomware package management endpoints to view and update the package version across your ONTAP cluster. These endpoints help ensure your nodes are equipped with the latest anti-ransomware defenses.
 
 == Overview
 

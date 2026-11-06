@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_lock_details.html'
+keywords: 'lock details,view locks,delete locks,share lock,cifs protocol'
 summary: 'View lock details'
 ---
 
 = View lock details
 :imagesdir: ./media/
 
-
+[.lead]
+Use the lock details endpoints to synchronize and manage concurrent access to files by various clients. You can view or break locks using a range of query fields to streamline access control.
 
 == Overview
 

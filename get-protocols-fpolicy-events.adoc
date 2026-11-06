@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-fpolicy-events.html'
+keywords: 'fpolicy event,svm events,cluster fpolicy,events configuration,ontap commands,template events'
 summary: 'Retrieve the FPolicy event configuration for all events for an SVM'
 ---
 
 = Retrieve the FPolicy event configuration for all events for an SVM
 :imagesdir: ./media/
 
+[.lead]
+Retrieves the FPolicy event configurations for all events associated with a specified SVM, including cluster-level events that apply to all data SVMs within the cluster. This helps you manage and understand the FPolicy settings applicable to your storage virtual machine.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/fpolicy/{svm.uuid}/events`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves FPolicy event configurations for all events for a specified SVM. ONTAP allows the creation of cluster-level FPolicy events that act as a template for all the data SVMs belonging to the cluster. These cluster-level FPolicy events are also retrieved for the specified SVM.
 

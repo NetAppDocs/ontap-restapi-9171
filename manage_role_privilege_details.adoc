@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_role_privilege_details.html'
+keywords: 'role privilege,privilege tuples,resource-qualified,svm-scoped,cluster-scoped,snapshots'
 summary: 'Manage role privilege details'
 ---
 
 = Manage role privilege details
 :imagesdir: ./media/
 
-
+[.lead]
+Configure and manage role privileges to define access levels for specific API endpoints or command paths. Utilize these endpoints to retrieve, add, or create privilege tuples for roles within your ONTAP environment.
 
 == Overview
 

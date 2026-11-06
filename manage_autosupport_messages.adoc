@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_autosupport_messages.html'
+keywords: 'autosupport management,cluster nodes,message retrieval,invoke autosupport,sent successful'
 summary: 'Manage AutoSupport messages'
 ---
 
 = Manage AutoSupport messages
 :imagesdir: ./media/
 
-
+[.lead]
+Invoke and retrieve AutoSupport messages from nodes within the cluster using this API. Perform POST calls to trigger AutoSupport and GET calls to access existing AutoSupport messages, supporting cluster-wide monitoring and diagnostics.
 
 == Overview
 

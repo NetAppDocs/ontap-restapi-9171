@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-cifs-shares.html'
+keywords: 'cifs shares,retrieve shares,share properties,vserver cifs,share encryption,home directory'
 summary: 'Retrieve CIFS shares'
 ---
 
 = Retrieve CIFS shares
 :imagesdir: ./media/
 
+[.lead]
+Accesses CIFS shares to view their configuration and properties within your storage environment.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/cifs/shares`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves CIFS shares.
 

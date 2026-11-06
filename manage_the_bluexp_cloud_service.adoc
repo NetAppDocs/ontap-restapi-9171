@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_the_bluexp_cloud_service.html'
+keywords: 'bluexp cloud service, ping latency, mediator ping, service reachability, cloud configurability'
 summary: 'Manage the BlueXP cloud service'
 ---
 
 = Manage the BlueXP cloud service
 :imagesdir: ./media/
 
-
+[.lead]
+Use the API to perform ping operations on the BlueXP cloud service and retrieve details about service reachability, configurability, and ping latency.
 
 == Overview
 

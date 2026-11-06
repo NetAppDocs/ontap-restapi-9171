@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-security-azure-key-vaults-rekey-internal.html'
+keywords: 'azure key vault,rekey internal,key hierarchy,svm configuration,external key manager,uuid configuration'
 summary: 'Re-key the internal key in the key hierarchy for an SVM'
 ---
 
 = Re-key the internal key in the key hierarchy for an SVM
 :imagesdir: ./media/
 
+[.lead]
+Res-key the internal key in the key hierarchy for an SVM configured with Azure Key Vault, updating the encryption setup as needed.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/security/azure-key-vaults/{uuid}/rekey-internal`#
 
-*Introduced In:* 9.10
+== Introduced in
+
+ONTAP 9.10
+
+== Usage notes
 
 Rekeys the internal key in the key hierarchy for an SVM with an AKV configuration.
 

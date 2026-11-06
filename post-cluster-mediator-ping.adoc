@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-cluster-mediator-ping.html'
+keywords: 'cluster mediator,ping cloud service,bluexp cloud,mediator ping,cloud service ping'
 summary: 'Ping the BlueXP cloud service'
 ---
 
 = Ping the BlueXP cloud service
 :imagesdir: ./media/
 
+[.lead]
+Checks the connectivity to the BlueXP cloud service to ensure communication is functioning properly.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/cluster/mediator-ping`#
 
-*Introduced In:* 9.17
+== Introduced in
+
+ONTAP 9.17
+
+== Usage notes
 
 Pings BlueXP cloud service.
 

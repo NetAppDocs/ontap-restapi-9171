@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_external-role-mapping_entries.html'
+keywords: 'external role mapping,identity provider roles,ontap roles,role mapping entry,external identity provider'
 summary: 'Manage external-role-mapping entries'
 ---
 
 = Manage external-role-mapping entries
 :imagesdir: ./media/
 
-
+[.lead]
+Map external identity provider roles to ONTAP roles using endpoints designed for configuring external-role-mapping entries. Create, retrieve, and manage these mappings to ensure proper role assignments between identity providers and your ONTAP system.
 
 === Overview
 

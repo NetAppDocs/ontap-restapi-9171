@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_security_login_messages.html'
+keywords: 'security login,login messages,cluster messages,svm messages,login banner,message configuration'
 summary: 'Manage security login messages'
 ---
 
 = Manage security login messages
 :imagesdir: ./media/
 
-
+[.lead]
+Display and manage the login messages configuration using these endpoints. Retrieve or update login messages by cluster scope, SVM, or UUID for effective security message management.
 
 == Overview
 

@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_barbican_kms_configurations.html'
+keywords: 'barbican kms,secure store,encryption keys,key management,keystone authentication,application credentials'
 summary: 'Manage Barbican KMS configurations'
 ---
 
 = Manage Barbican KMS configurations
 :imagesdir: ./media/
 
-
+[.lead]
+Configure and manage Barbican Key Management Services (KMS) within the ONTAP environment to securely store and protect encryption keys. Use these endpoints to establish communication between ONTAP and the Barbican application, including setting key IDs, authentication URLs, and application credentials.
 
 == Overview
 

@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_ethernet_switches.html'
+keywords: 'manage ethernet switches,ethernet switch configuration,snmp credentials,snmp monitoring,cisco nexus'
 summary: 'Manage Ethernet switches'
 ---
 
 = Manage Ethernet switches
 :imagesdir: ./media/
 
-
+[.lead]
+Manage Ethernet switches used by ONTAP for monitoring and configuration. Retrieve, configure, add, or delete switches, adjust SNMP credentials, and monitor their status effectively.
 
 == Overview
 

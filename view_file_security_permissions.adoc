@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_file_security_permissions.html'
+keywords: 'file permissions,windows permission,unix permission,effective permission,folder access'
 summary: 'View file security permissions'
 ---
 
 = View file security permissions
 :imagesdir: ./media/
 
-
+[.lead]
+Use this API to display the effective file security permissions for a Windows or UNIX user on a specified file or folder path. Paths within the FlexCache volume are excluded from this functionality.
 
 :doctype: book
 

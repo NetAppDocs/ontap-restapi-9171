@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_network_ipspaces.html'
+keywords: 'ipspaces,unique ip address,svm association,network management,patch ipspace,delete ipspace'
 summary: 'Manage network IPspaces'
 ---
 
 = Manage network IPspaces
 :imagesdir: ./media/
 
-
+[.lead]
+Manage network IPspaces to define distinct addressing domains within your ONTAP cluster. Use these endpoints for operations such as retrieving, creating, updating, and deleting IPspaces, ensuring unique IP associations and efficient network segmentation.
 
 == Overview
 

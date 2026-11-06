@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_storage_aggregate_metrics.html'
+keywords: 'storage metrics,aggregate performance,iops measurement,latency analysis,throughput calculation'
 summary: 'Manage storage aggregate metrics'
 ---
 
 = Manage storage aggregate metrics
 :imagesdir: ./media/
 
-
+[.lead]
+Access historical performance metrics for specific storage aggregates using these endpoints. Retrieve detailed statistics on IOPS, latency, and throughput to analyze read, write, and background operations on hosted volumes. Without specifying a time interval, metrics default to 15-second intervals over the last hour.
 
 == Overview
 

@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-cluster-licensing-licenses.html'
+keywords: 'install feature,license key,add license,feature licenses,cluster licensing'
 summary: 'Install one or more feature licenses'
 ---
 
 = Install one or more feature licenses
 :imagesdir: ./media/
 
+[.lead]
+Installs feature licenses to activate specific ONTAP capabilities on your system. Use this endpoint when you need to enable new functionalities by adding license keys.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/cluster/licensing/licenses`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Installs one or more feature licenses.
 

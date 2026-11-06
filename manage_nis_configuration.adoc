@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_nis_configuration.html'
+keywords: 'nis servers,nis domain,nis configuration,cluster nis,manage nis'
 summary: 'Manage NIS configuration'
 ---
 
 = Manage NIS configuration
 :imagesdir: ./media/
 
-
+[.lead]
+Configure and manage NIS server settings to authenticate users and client computers in your cluster. Access endpoints to retrieve, create, update, and delete NIS configurations as needed for effective domain management.
 
 == Overview
 

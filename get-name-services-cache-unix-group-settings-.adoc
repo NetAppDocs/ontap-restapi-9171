@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-name-services-cache-unix-group-settings-.html'
+keywords: 'unix group,cache setting,svm uuid,ttl filter,negative cache'
 summary: 'Retrieve a UNIX group cache setting for an SVM'
 ---
 
 = Retrieve a UNIX group cache setting for an SVM
 :imagesdir: ./media/
 
+[.lead]
+Accesses the UNIX group cache setting for a specific SVM to review or manage the cache configuration related to UNIX group identities.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/name-services/cache/unix-group/settings/{svm.uuid}`#
 
-*Introduced In:* 9.11
+== Introduced in
+
+ONTAP 9.11
+
+== Usage notes
 
 Retrieves a unix-group cache setting for a given SVM.
 

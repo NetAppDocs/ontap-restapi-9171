@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_storage_pools.html'
+keywords: 'storage pools,shared storage,flash capacity,cache tiers,usable spares'
 summary: 'Manage storage pools'
 ---
 
 = Manage storage pools
 :imagesdir: ./media/
 
-
+[.lead]
+Retrieve and manage shared storage pool information in your cluster using the storage pool endpoints. Create storage pools to efficiently distribute flash capacity across cache tiers in HDD aggregates within HA pairs.
 
 == Retrieving storage pool information
 

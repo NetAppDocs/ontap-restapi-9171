@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_san_vvol_bindings.html'
+keywords: 'san bindings,vvol binding,protocol endpoint,virtual volume,lun mapping'
 summary: 'Manage SAN vVol bindings'
 ---
 
 = Manage SAN vVol bindings
 :imagesdir: ./media/
 
-
+[.lead]
+Manage SAN vVol bindings by creating, deleting, and discovering associations between `protocol_endpoint` and `vvol` LUNs. Use these endpoints to control access and reference counts within VMware environments, maintaining efficient storage operations and resource mappings.
 
 == Overview
 

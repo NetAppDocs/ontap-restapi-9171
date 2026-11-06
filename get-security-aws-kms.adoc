@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-security-aws-kms.html'
+keywords: 'aws kms,aws clusters,security key-manager,aws encryption,ontap security'
 summary: 'Retrieve all AWS KMS instances configured for all clusters and SVMs'
 ---
 
 = Retrieve all AWS KMS instances configured for all clusters and SVMs
 :imagesdir: ./media/
 
+[.lead]
+Retrieves the list of AWS KMS instances for all clusters and SVMs to examine or verify the current key management configurations.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/aws-kms`#
 
-*Introduced In:* 9.12
+== Introduced in
+
+ONTAP 9.12
+
+== Usage notes
 
 Retrieves all AWS KMS instances configured for all clusters and SVMs.
 

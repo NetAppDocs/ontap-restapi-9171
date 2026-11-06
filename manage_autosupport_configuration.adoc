@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_autosupport_configuration.html'
+keywords: 'autosupport configuration,call home,cluster connectivity,smtp transport,start tls'
 summary: 'Manage AutoSupport configuration'
 ---
 
 = Manage AutoSupport configuration
 :imagesdir: ./media/
 
-
+[.lead]
+Access AutoSupport configuration endpoints to manage and monitor the *call home* mechanism of your cluster. Use these endpoints to retrieve and modify configuration details, check connectivity, and handle error reporting with targeted GET and PATCH calls.
 
 == Overview
 

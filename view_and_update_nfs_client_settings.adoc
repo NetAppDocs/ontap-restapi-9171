@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_and_update_nfs_client_settings.html'
+keywords: 'nfs client settings,cache idle time,connected client cache,client retention,update interval,cache refresh'
 summary: 'View and update NFS client settings'
 ---
 
 = View and update NFS client settings
 :imagesdir: ./media/
 
-
+[.lead]
+Adjust NFS client settings across your cluster with these endpoints. Set cache idle times to optimize performance and ensure timely removal of inactive entries.
 
 == Overview
 

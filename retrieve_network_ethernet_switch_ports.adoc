@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'retrieve_network_ethernet_switch_ports.html'
+keywords: 'ethernet switch ports,cluster networks,storage networks,port status,port configuration'
 summary: 'Retrieve network Ethernet switch ports'
 ---
 
 = Retrieve network Ethernet switch ports
 :imagesdir: ./media/
 
-
+[.lead]
+Retrieve detailed port information for Ethernet switches within cluster or storage networks using the ONTAP REST API. This API provides status and configuration data through GET operations, helping you assess and manage network connectivity.
 
 == Overview
 

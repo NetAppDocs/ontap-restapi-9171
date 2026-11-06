@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_clusters.html'
+keywords: 'cluster management,create cluster,cluster configuration,active directory,performance monitoring'
 summary: 'Manage clusters'
 ---
 
 = Manage clusters
 :imagesdir: ./media/
 
-
+[.lead]
+Manage clusters using this API to create new setups, update configurations, and retrieve current cluster details. Use these endpoints to initialize clusters with specific node configurations, set up management interfaces, and monitor cluster creation progress.
 
 = Overview
 :doctype: book

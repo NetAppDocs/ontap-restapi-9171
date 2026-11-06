@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-cluster-chassis.html'
+keywords: 'cluster chassis,chassis collection,fru type,node position,node uuid,node name'
 summary: 'Retrieve a collection of chassis'
 ---
 
 = Retrieve a collection of chassis
 :imagesdir: ./media/
 
+[.lead]
+Retrieves information about multiple chassis to view and manage the hardware components within your storage system.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cluster/chassis`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves a collection of chassis.
 

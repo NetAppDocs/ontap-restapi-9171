@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_storage_aggregates.html'
+keywords: 'storage aggregates,raid configuration,aggregate expansion,ssd cache,software encryption'
 summary: 'Manage storage aggregates'
 ---
 
 = Manage storage aggregates
 :imagesdir: ./media/
 
-
+[.lead]
+Modify and manage storage aggregates using the PATCH operation to update individual properties. This includes actions such as renaming aggregates, relocating them to different nodes, adjusting RAID configurations, or setting encryption options. While ASA r2 systems automatically manage aggregates, other systems offer flexibility in addressing specific storage needs.
 
 == Updating storage aggregates
 

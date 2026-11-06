@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_ipsec_security_associations.html'
+keywords: 'ipsec security,security associations,ontap ipsec,view security associations,ipsec associations'
 summary: 'View IPsec security associations'
 ---
 
 = View IPsec security associations
 :imagesdir: ./media/
 
-
+[.lead]
+Retrieve information about IPsec security associations to monitor and analyze encrypted communication paths within your network infrastructure.
 
 == Overview
 

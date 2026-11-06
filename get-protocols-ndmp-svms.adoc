@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-ndmp-svms.html'
+keywords: 'ndmp configurations,svm configurations,protocol ndmp,vserver ndmp,ndmp settings,snapshot configurations'
 summary: 'Retrieve NDMP configurations for all SVMs'
 ---
 
 = Retrieve NDMP configurations for all SVMs
 :imagesdir: ./media/
 
+[.lead]
+Accesses NDMP configurations across all SVMs to review and manage your network data management protocol settings. This is typically used to ensure configurations are correctly applied and to assist in troubleshooting.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/ndmp/svms`#
 
-*Introduced In:* 9.7
+== Introduced in
+
+ONTAP 9.7
+
+== Usage notes
 
 Retrieves NDMP configurations for all SVMs.
 

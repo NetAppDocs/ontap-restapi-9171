@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-aggregates.html'
+keywords: 'cluster aggregates,aggregate collection,storage aggregates,aggregate retrieval,ontap cluster storage'
 summary: 'Retrieve a collection of aggregates for an entire cluster'
 ---
 
 = Retrieve a collection of aggregates for an entire cluster
 :imagesdir: ./media/
 
+[.lead]
+Retrieves the collection of aggregates for the entire cluster. This helps you view and manage the storage resources available in your ONTAP environment.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/aggregates`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves the collection of aggregates for the entire cluster.
+ONTAP 9.6
 
 == Expensive properties
 
