@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_kerberos_realms.html'
+keywords: 'kerberos realms,nfs kerberos,realm creation,realm update,realm deletion,svm kerberos'
 summary: 'Manage Kerberos realms'
 ---
 
 = Manage Kerberos realms
 :imagesdir: ./media/
 
-
+[.lead]
+Manage Kerberos realms to configure and control authentication settings for NFS within your environment. These endpoints support operations like retrieving, creating, updating, and deleting Kerberos realms associated with SVMs.
 
 == Examples
 

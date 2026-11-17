@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_application_snapshots.html'
+keywords: 'application snapshots,storage elements,snapshot scheduling,crash consistent,application consistent'
 summary: 'Manage application snapshots'
 ---
 
 = Manage application snapshots
 :imagesdir: ./media/
 
-
+[.lead]
+Create and manage application snapshots to support data protection across storage elements. Use these endpoints to schedule, restore, and flag snapshots as either application consistent or crash consistent. For optimal coordination between host applications and ONTAP, consider using the SnapCenter Backup Management suite.
 
 == Overview
 

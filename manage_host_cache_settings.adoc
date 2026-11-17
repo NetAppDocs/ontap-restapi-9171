@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_host_cache_settings.html'
+keywords: 'host cache,cache settings,host settings,dns ttl,negative cache'
 summary: 'Manage host cache settings'
 ---
 
 = Manage host cache settings
 :imagesdir: ./media/
 
-
+[.lead]
+Retrieve and manage host cache settings using these endpoints to optimize cache configuration across your environment.
 
 == Overview
 

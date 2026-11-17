@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_group_membership_cache_settings.html'
+keywords: 'group membership,cache settings,group membership cache,svm settings,manage cache'
 summary: 'Manage group membership cache settings'
 ---
 
 = Manage group membership cache settings
 :imagesdir: ./media/
 
-
+[.lead]
+Utilize group-membership cache settings endpoints to efficiently retrieve and manage caching configurations within your ONTAP environment. Access these endpoints to optimize cache behavior for specific storage virtual machines (SVMs).
 
 == Overview
 

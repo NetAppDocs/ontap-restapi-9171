@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_cluster-wide_snmp_configuration.html'
+keywords: 'snmp configuration,snmp traps,cluster snmp,snmp test,disable snmp,enable snmp'
 summary: 'Manage cluster-wide SNMP configuration'
 ---
 
 = Manage cluster-wide SNMP configuration
 :imagesdir: ./media/
 
-
+[.lead]
+Configure and manage cluster-wide SNMP settings, including enabling or disabling SNMP protocol, authentication traps, and SNMP traps. Use these endpoints to tailor SNMP behavior and initiate test traps for monitoring purposes.
 
 == Overview
 

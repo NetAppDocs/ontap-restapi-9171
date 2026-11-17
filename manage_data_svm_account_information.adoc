@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_data_svm_account_information.html'
+keywords: 'data svm,active directory,domain authentication,cluster accounts,svm proxy'
 summary: 'Manage data SVM account information'
 ---
 
 = Manage data SVM account information
 :imagesdir: ./media/
 
-
+[.lead]
+Configure data SVM account information at the Active Directory using this API to facilitate domain-based authentication for cluster accounts. These endpoints are essential for managing authentication requests through a data SVM proxy.
 
 == Overview
 

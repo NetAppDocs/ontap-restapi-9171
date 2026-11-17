@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_svm_fpolicy_configuration.html'
+keywords: 'fpolicy configuration,fpolicy events,fpolicy engine,file access behavior,policy management,storage objects'
 summary: 'Manage SVM FPolicy configuration'
 ---
 
 = Manage SVM FPolicy configuration
 :imagesdir: ./media/
 
-
+[.lead]
+Configure FPolicy policies within your ONTAP environment to manage file access behaviors and notifications. Define policy attributes such as the associated SVM, events to monitor, engine for notifications, and scope of influence. These configurations allow you to control file access when server availability changes and tailor policies to specific storage objects or file extensions.
 
 == Overview
 

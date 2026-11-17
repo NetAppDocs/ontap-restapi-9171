@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_cifs_connection_information.html'
+keywords: 'cifs connections,established connections,cifs connection list,connection information,cifs sessions'
 summary: 'View CIFS connection information'
 ---
 
 = View CIFS connection information
 :imagesdir: ./media/
 
-
+[.lead]
+Access CIFS connection information to view details about currently established CIFS sessions. Use these endpoints to monitor active connections for troubleshooting or auditing purposes.
 
 == Overview
 

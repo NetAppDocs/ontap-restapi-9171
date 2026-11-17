@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-protocols-s3-services-buckets-rules.html'
+keywords: 'bucket lifecycle,object expiration,delete marker,non-current versions,object filter,rules configuration'
 summary: 'Create the S3 bucket lifecycle rule configuration'
 ---
 
 = Create the S3 bucket lifecycle rule configuration
 :imagesdir: ./media/
 
+[.lead]
+Creates an S3 bucket lifecycle rule configuration to automate the management of object storage over time. This helps you implement policies such as transitioning objects to different storage classes or deleting them after a specified period.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/protocols/s3/services/{svm.uuid}/buckets/{s3_bucket.uuid}/rules`#
 
-*Introduced In:* 9.13
+== Introduced in
 
-Creates the S3 bucket lifecycle rule configuration.
+ONTAP 9.13
 
 == Required properties
 

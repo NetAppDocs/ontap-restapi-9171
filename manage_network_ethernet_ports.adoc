@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_network_ethernet_ports.html'
+keywords: 'ethernet ports,physical ports,link aggregation,vlan configuration,broadcast domain'
 summary: 'Manage network Ethernet ports'
 ---
 
 = Manage network Ethernet ports
 :imagesdir: ./media/
 
-
+[.lead]
+Manage network Ethernet ports in your cluster to configure physical and virtual network devices, including VLANs and Link Aggregation Groups (LAGs). Use the available APIs to retrieve, update, and delete port information based on your networking needs.
 
 == Overview
 

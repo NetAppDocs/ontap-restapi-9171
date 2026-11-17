@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-security-certificates.html'
+keywords: 'security certificates,retrieve certificates,certificate filters,certificate scope,certificate expiry'
 summary: 'Retrieve security certificates'
 ---
 
 = Retrieve security certificates
 :imagesdir: ./media/
 
+[.lead]
+Accesses security certificates to review the current security configurations and validate certificate details.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/certificates`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves security certificates.
 

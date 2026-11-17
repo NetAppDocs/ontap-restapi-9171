@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'add,_remove,_or_discover_lun_map_reporting_nodes.html'
+keywords: 'lun map,selective lun map,reporting nodes,cluster nodes,high availability'
 summary: 'Add, remove, or discover LUN map reporting nodes'
 ---
 
 = Add, remove, or discover LUN map reporting nodes
 :imagesdir: ./media/
 
-
+[.lead]
+Manage the reporting nodes in a LUN map to control network path advertisements via SAN protocols. Use these endpoints to add, remove, or discover nodes, ensuring optimized LUN paths and efficient SAN configuration.
 
 == Overview
 

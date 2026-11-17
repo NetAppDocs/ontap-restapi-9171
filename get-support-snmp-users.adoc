@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-support-snmp-users.html'
+keywords: 'snmp users,cluster users,snmp protocol,snmp security,snmp cluster'
 summary: 'Retrieve SNMP users on a cluster'
 ---
 
 = Retrieve SNMP users on a cluster
 :imagesdir: ./media/
 
+[.lead]
+Retrieves the list of SNMP users configured on a cluster, providing details for managing SNMP access.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/support/snmp/users`#
 
-*Introduced In:* 9.7
+== Introduced in
+
+ONTAP 9.7
+
+== Usage notes
 
 Retrieves the list of SNMP users on the cluster.
 

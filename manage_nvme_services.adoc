@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_nvme_services.html'
+keywords: 'nvme service,non-volatile memory express,svm management,performance monitoring,nvme host initiator,nvme connections'
 summary: 'Manage NVMe services'
 ---
 
 = Manage NVMe services
 :imagesdir: ./media/
 
-
+[.lead]
+The NVMe services REST API lets you manage the properties of NVMe controller targets for SVMs. Use these endpoints to create, update, delete, and discover NVMe services, ensuring host initiators can connect to your storage systems effectively.
 
 == Overview
 

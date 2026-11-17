@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_individual_snmp_users.html'
+keywords: 'snmp user,individual user,manage snmp,cluster scope,snmp authentication'
 summary: 'Manage individual SNMP users'
 ---
 
 = Manage individual SNMP users
 :imagesdir: ./media/
 
-
+[.lead]
+Manage individual SNMP users by defining, retrieving, updating, and deleting their configurations. Use these endpoints to maintain secure and efficient SNMP user management within your environment.
 
 == Overview
 

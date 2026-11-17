@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'retrieve_or_create_a_collection_of_storage_aggregates.html'
+keywords: 'storage aggregates,usable spares,recommended aggregates,disk count,raid type'
 summary: 'Retrieve or create a collection of storage aggregates'
 ---
 
 = Retrieve or create a collection of storage aggregates
 :imagesdir: ./media/
 
-
+[.lead]
+Retrieve and create collections of storage aggregates using these endpoints to manage cluster storage layouts and optimize performance. You can query detailed aggregate properties to guide storage decisions and simulate configurations before deployment. Certain configurations are restricted based on platform capabilities.
 
 == Retrieving storage aggregate information
 

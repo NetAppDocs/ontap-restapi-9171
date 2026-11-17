@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-cluster-sensors.html'
+keywords: 'environment sensors,cluster sensors,node filters,threshold values,discrete state,critical thresholds'
 summary: 'Retrieve environment sensors'
 ---
 
 = Retrieve environment sensors
 :imagesdir: ./media/
 
+[.lead]
+Accesses environment sensors to monitor and manage the physical conditions of your storage system.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cluster/sensors`#
 
-*Introduced In:* 9.11
+== Introduced in
+
+ONTAP 9.11
+
+== Usage notes
 
 Retrieves Environment Sensors
 

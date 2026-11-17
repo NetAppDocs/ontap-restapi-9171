@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'display_metrocluster_diagnostics.html'
+keywords: 'metrocluster diagnostics,cluster diagnostics,diagnostics operation,check details,high level checks'
 summary: 'Display MetroCluster diagnostics'
 ---
 
 = Display MetroCluster diagnostics
 :imagesdir: ./media/
 
-
+[.lead]
+Display MetroCluster diagnostics to initiate and retrieve results from diagnostics operations on MetroCluster over IP configurations. These endpoints help monitor the health of various components by checking their status and detailing any issues found. Use them to ensure your MetroCluster setup is functioning optimally.
 
 == Overview
 

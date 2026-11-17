@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_snapshot_policies.html'
+keywords: 'snapshot policies,snapshot creation,snapshot retention,schedule prefix,retention period'
 summary: 'Manage snapshot policies'
 ---
 
 = Manage snapshot policies
 :imagesdir: ./media/
 
-
+[.lead]
+Explore endpoints for managing snapshot policies, which schedule the creation of snapshots in ONTAP environments. Utilize these APIs to create, retrieve, update, and delete snapshot policies according to your data protection needs.
 
 == Overview
 

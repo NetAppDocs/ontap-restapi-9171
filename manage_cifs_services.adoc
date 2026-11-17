@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_cifs_services.html'
+keywords: 'cifs services,storage virtual machine,active directory,performance monitoring,smb clients'
 summary: 'Manage CIFS services'
 ---
 
 = Manage CIFS services
 :imagesdir: ./media/
 
-
+[.lead]
+The CIFS services endpoints enable the configuration and management of CIFS servers within your Storage Virtual Machine (SVM). These endpoints are essential for providing SMB clients access to the SVM and integrating with Active Directory domains. You can use them to create, update, retrieve, and delete CIFS server configurations across your ONTAP cluster.
 
 == Overview
 

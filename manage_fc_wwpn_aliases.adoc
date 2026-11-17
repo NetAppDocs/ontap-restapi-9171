@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_fc_wwpn_aliases.html'
+keywords: 'fibre channel,wwpn alias,worldwide port name,create alias,delete alias'
 summary: 'Manage FC WWPN aliases'
 ---
 
 = Manage FC WWPN aliases
 :imagesdir: ./media/
 
-
+[.lead]
+Create, delete, and manage aliases for Fibre Channel worldwide port names (WWPNs) to simplify identification of initiators in large SAN environments. You can associate multiple aliases with a single WWPN, enhancing flexibility and organization.
 
 == Overview
 

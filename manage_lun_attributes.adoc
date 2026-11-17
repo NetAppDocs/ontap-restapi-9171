@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_lun_attributes.html'
+keywords: 'lun attributes,manage lun,storage luns,metadata persistence,modify attribute'
 summary: 'Manage LUN attributes'
 ---
 
 = Manage LUN attributes
 :imagesdir: ./media/
 
-
+[.lead]
+Use the LUN attributes REST API to create, update, delete, and discover custom name/value pairs associated with a LUN. These attributes store small amounts of application-specific metadata without being interpreted by ONTAP.
 
 == Overview
 

@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_ssh_svms.html'
+keywords: 'ssh security,svm configuration,key exchange,host key algorithms,payload encryption'
 summary: 'View SSH SVMs'
 ---
 
 = View SSH SVMs
 :imagesdir: ./media/
 
-
+[.lead]
+Retrieve the SSH security configuration for all data SVMs, including key exchange algorithms, encryption ciphers, MAC algorithms, host key algorithms, and authentication retry settings. Customize the security parameters for individual SVMs using a PATCH operation to tailor SSH configurations to specific requirements.
 
 === Overview
 

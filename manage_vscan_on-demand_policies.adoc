@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_vscan_on-demand_policies.html'
+keywords: 'vscan scanning,vscan policies,virus scanning,svm namespace,policy configurations'
 summary: 'Manage Vscan On-Demand policies'
 ---
 
 = Manage Vscan On-Demand policies
 :imagesdir: ./media/
 
-
+[.lead]
+Configure and manage Vscan On-Demand policies to schedule virus scans across specified paths within the SVM namespace. Utilize these endpoints to define scan scopes and schedules, ensuring comprehensive virus protection during optimal times.
 
 == Overview
 

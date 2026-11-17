@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_qos_workloads.html'
+keywords: 'quality of service,workloads,qos management,storage object,qos tracking'
 summary: 'Manage QoS workloads'
 ---
 
 = Manage QoS workloads
 :imagesdir: ./media/
 
-
+[.lead]
+Quality of Service (QoS) workloads are tracked storage objects within a system. Use these endpoints to manage and monitor the performance characteristics of your storage resources efficiently.
 
 == Quality of Service Workloads
 

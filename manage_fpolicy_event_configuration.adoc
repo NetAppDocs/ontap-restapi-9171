@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_fpolicy_event_configuration.html'
+keywords: 'fpolicy events,cifs protocol,nfs protocol,file access monitoring,file operation filters'
 summary: 'Manage FPolicy event configuration'
 ---
 
 = Manage FPolicy event configuration
 :imagesdir: ./media/
 
-
+[.lead]
+Configure FPolicy events to monitor file access within your system efficiently. Specify the SVM, event name, protocol, monitored file operations, and apply filters to manage notification generation. Use these endpoints to track and control file operations, including failed attempts due to permission issues.
 
 == Overview
 

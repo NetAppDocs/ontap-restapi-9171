@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_authentication_keys_end-users_.html'
+keywords: 'public keys,manage keys,user accounts,svm owner,modify keys,delete keys'
 summary: 'Manage authentication keys (end-users)'
 ---
 
 = Manage authentication keys (end-users)
 :imagesdir: ./media/
 
-
+[.lead]
+Configure public keys for end-user accounts using this API. Manage authentication keys by specifying the owner UUID, user account name, and index in the URI path to securely maintain user access.
 
 == Overview
 

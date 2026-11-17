@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_ems_configuration.html'
+keywords: 'ems configuration,event management,email parameters,mail server,pubsub enabled'
 summary: 'Manage EMS configuration'
 ---
 
 = Manage EMS configuration
 :imagesdir: ./media/
 
-
+[.lead]
+Configure general parameters of the Event Management System (EMS) to manage notifications and alerts within your ONTAP environment.
 
 == Overview
 

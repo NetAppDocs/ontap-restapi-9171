@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-security-roles--privileges-.html'
+keywords: 'security roles,rest path privileges,access level update,resource path update,snapshots analytics'
 summary: 'Update the access level for a REST API path or command/command directory path'
 ---
 
 = Update the access level for a REST API path or command/command directory path
 :imagesdir: ./media/
 
+[.lead]
+Updates the access level for a specific REST API path or command directory path. This is useful when you need to modify permissions or adjust queries for resource-qualified endpoints.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/security/roles/{owner.uuid}/{name}/privileges/{path}`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Updates the access level for a REST API path or command/command directory path. Optionally updates the query, if 'path' refers to a command/command directory path. The REST API path can be a resource-qualified endpoint. Currently, the only supported resource-qualified endpoints are the following&#58;
 

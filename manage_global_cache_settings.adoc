@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_global_cache_settings.html'
+keywords: 'global cache,cache settings,nameservice cache,eviction time,remote fetch'
 summary: 'Manage global cache settings'
 ---
 
 = Manage global cache settings
 :imagesdir: ./media/
 
-
+[.lead]
+Retrieve and manage global nameservice cache settings to optimize the performance of your ONTAP environment. Use these endpoints to access and modify cache configurations efficiently.
 
 == Overview
 

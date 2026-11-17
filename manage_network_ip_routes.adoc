@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_network_ip_routes.html'
+keywords: 'network ip routes,cluster routes,svm routes,route retrieval,route deletion'
 summary: 'Manage network IP routes'
 ---
 
 = Manage network IP routes
 :imagesdir: ./media/
 
-
+[.lead]
+Use network IP route endpoints to manage route configurations within the cluster. Retrieve detailed information about existing routes, create new routes, or delete routes as needed to optimize network traffic.
 
 == Overview
 

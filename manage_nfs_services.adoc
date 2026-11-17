@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_nfs_services.html'
+keywords: 'nfs configuration,nfs permissions,svm management,nfs performance,nfs protocol'
 summary: 'Manage NFS services'
 ---
 
 = Manage NFS services
 :imagesdir: ./media/
 
-
+[.lead]
+Manage NFS services to configure, update, and delete NFS settings for storage virtual machines (SVMs). Retrieve and set mount permissions for specified volumes to control access across different protocols.
 
 === Retrieving an NFS configuration
 

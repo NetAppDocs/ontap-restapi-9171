@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_storage_tape_devices.html'
+keywords: 'storage tape,manage tape devices,tape device retrieval,cluster tapes,tape device alias'
 summary: 'Manage storage tape devices'
 ---
 
 = Manage storage tape devices
 :imagesdir: ./media/
 
-
+[.lead]
+Retrieve and manage information on storage tape devices within your cluster using the storage tape GET API. Use these endpoints to access details about all tapes, or query specific tape devices for targeted information.
 
 == Retrieving storage tape information
 

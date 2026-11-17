@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-network-ip-routes.html'
+keywords: 'ip routes,network routes,route collection,svm filter,interfaces filter,gateway filter'
 summary: 'Retrieve IP routes'
 ---
 
 = Retrieve IP routes
 :imagesdir: ./media/
 
+[.lead]
+Accesses IP routes to view the existing network paths configured for your system. This helps you understand the current routing setup and manage network traffic efficiently.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/network/ip/routes`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves the collection of IP routes.
 

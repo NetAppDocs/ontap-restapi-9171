@@ -3,18 +3,20 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_event_filters.html'
+keywords: 'event filters,filter instance,message criteria,severities,snmp trap types'
 summary: 'Manage event filters'
 ---
 
 = Manage event filters
 :imagesdir: ./media/
 
-
+[.lead]
+Manage event filters to customize how system alerts are processed and delivered. Use these endpoints to retrieve, update, or delete specific filter instances based on your criteria.
 
 == Overview
 
 Manages a specific filter instance.
-See the documentation for <</docs/support/support_ems_filters,/support/ems/filters>> for details on the various properties.
+See the documentation for link:getting_started_with_the_ontap_rest_api.html#/docs/support/support_ems_filters[/support/ems/filters] for details on the various properties.
 
 == Examples
 

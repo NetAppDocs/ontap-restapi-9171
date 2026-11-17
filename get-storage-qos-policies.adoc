@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-qos-policies.html'
+keywords: 'qos policies,retrieve qos,storage policies,svm filter,adaptive iops'
 summary: 'Retrieve QoS policies'
 ---
 
 = Retrieve QoS policies
 :imagesdir: ./media/
 
+[.lead]
+Accesses a collection of QoS policies to review and manage quality of service configurations across your storage environment.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/qos/policies`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves a collection of QoS policies.
 

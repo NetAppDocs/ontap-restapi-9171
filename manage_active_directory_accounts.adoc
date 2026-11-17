@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_active_directory_accounts.html'
+keywords: 'active directory,svm details,organizational unit,create account,account security'
 summary: 'Manage Active Directory accounts'
 ---
 
 = Manage Active Directory accounts
 :imagesdir: ./media/
 
-
+[.lead]
+Manage Active Directory accounts for your SVMs to display relevant information or create new accounts. Use these endpoints to integrate and administer your ONTAP environment's Active Directory settings effectively.
 
 == Overview
 

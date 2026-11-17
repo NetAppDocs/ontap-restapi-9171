@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_authentication_keys_for_admins_.html'
+keywords: 'ssh key management,public key configuration,secure shell access,cluster administrator,svm administrator'
 summary: 'Manage authentication keys (for admins)'
 ---
 
 = Manage authentication keys (for admins)
 :imagesdir: ./media/
 
-
+[.lead]
+Configure public keys for user accounts to manage SSH access securely. Use these endpoints to associate public-private key pairs with accounts, ensuring authenticated access for cluster and SVM administrators.
 
 == Overview
 

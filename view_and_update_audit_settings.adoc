@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_and_update_audit_settings.html'
+keywords: 'audit settings,administrative audit,get requests,security audit,log files'
 summary: 'View and update audit settings'
 ---
 
 = View and update audit settings
 :imagesdir: ./media/
 
-
+[.lead]
+Utilize the audit settings endpoints to control and update logging preferences within audit log files. These endpoints help you manage administrative audit settings, ensuring that all change-related operations are consistently recorded.
 
 == Overview
 

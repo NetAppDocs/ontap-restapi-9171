@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-security-authentication-cluster-saml-sp.html'
+keywords: 'saml configuration,service provider,saml service provider,cluster saml,certificate filter,host filter'
 summary: 'Retrieve an SAML service provider configuration'
 ---
 
 = Retrieve an SAML service provider configuration
 :imagesdir: ./media/
 
+[.lead]
+Retrieves the configuration details for a SAML service provider to manage authentication settings within your environment.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/authentication/cluster/saml-sp`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves a SAML service provider configuration.
 

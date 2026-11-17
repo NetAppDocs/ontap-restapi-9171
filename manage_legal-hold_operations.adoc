@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_legal-hold_operations.html'
+keywords: 'legal hold,snaplock,litigation operations,manage litigation,hold operations'
 summary: 'Manage legal-hold operations'
 ---
 
 = Manage legal-hold operations
 :imagesdir: ./media/
 
-
+[.lead]
+Manage legal-hold operations for specified litigation IDs to ensure compliance and data preservation in legal contexts. Use these endpoints to add or remove legal holds as required by your organization's legal protocols.
 
 Manages the legal-hold operations for the specified litigation ID.
 

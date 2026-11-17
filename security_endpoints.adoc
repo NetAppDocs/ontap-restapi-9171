@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'security_endpoints.html'
+keywords: 'security settings, cluster management, svm security, saml configuration, identity provider'
 summary: 'ONTAP REST API security endpoints'
 ---
 
 = ONTAP REST API security endpoints
 :imagesdir: ./media/
 
-
+[.lead]
+Manage security settings for clusters and SVMs using ONTAP security APIs. These endpoints help you configure SAML authentication to enhance security through third-party Identity Providers.
 
 == Overview
 

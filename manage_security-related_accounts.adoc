@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_security-related_accounts.html'
+keywords: 'security accounts,cluster management,svm management,user privileges,multi-factor authentication'
 summary: 'Manage security-related accounts'
 ---
 
 = Manage security-related accounts
 :imagesdir: ./media/
 
-
+[.lead]
+Configure and manage security-related user accounts for cluster and SVM operations. Create custom accounts with specific privileges, modify existing accounts, and enforce authentication methods, including multi-factor authentication, to secure access to your system.
 
 == Overview
 

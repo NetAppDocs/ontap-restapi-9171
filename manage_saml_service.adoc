@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_saml_service.html'
+keywords: 'saml service,saml provider,saml configuration,cluster security,manage saml'
 summary: 'Manage SAML service'
 ---
 
 = Manage SAML service
 :imagesdir: ./media/
 
-
+[.lead]
+Retrieve, configure, and manage the SAML service provider setup within your cluster using these endpoints. You can create, update, or delete the SAML service provider configuration to control authentication processes effectively.
 
 == Overview
 

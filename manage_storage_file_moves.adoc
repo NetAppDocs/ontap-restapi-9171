@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_storage_file_moves.html'
+keywords: 'file move,flexvol,flexgroup,storage cluster,node uuid'
 summary: 'Manage storage file moves'
 ---
 
 = Manage storage file moves
 :imagesdir: ./media/
 
-
+[.lead]
+Use the Manage storage file moves REST API endpoints to initiate and monitor file move operations between FlexVol volumes or within FlexGroup volumes. This functionality is essential for optimizing file placement and capacity utilization across your ONTAP cluster.
 
 == Overview
 

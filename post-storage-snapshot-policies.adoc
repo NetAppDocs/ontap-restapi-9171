@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-storage-snapshot-policies.html'
+keywords: 'snapshot policy,snapshot creation,svm selection,schedule snapshot,retention period,snapmirror label'
 summary: 'Create a snapshot policy'
 ---
 
 = Create a snapshot policy
 :imagesdir: ./media/
 
+[.lead]
+Creates a snapshot policy to manage how snapshots are captured and retained on a volume. This policy helps organize data protection schedules and retention strategies on your storage resources.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/storage/snapshot-policies`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Creates a snapshot policy.
+ONTAP 9.6
 
 == Required properties
 

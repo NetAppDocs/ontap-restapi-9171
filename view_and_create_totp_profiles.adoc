@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_and_create_totp_profiles.html'
+keywords: 'totp profiles,secure shell access,time based otp,cluster user account,svm user account'
 summary: 'View and create TOTP profiles'
 ---
 
 = View and create TOTP profiles
 :imagesdir: ./media/
 
-
+[.lead]
+Configure TOTP profiles for user accounts to secure SSH access through two-factor authentication. Use these endpoints to create your own TOTP profile or retrieve existing profiles associated with user accounts. Since TOTP profiles must be created individually, administrative creation for other users is not supported.
 
 == Overview
 

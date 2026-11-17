@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-storage-namespaces.html'
+keywords: 'nvme namespace,namespace creation,storage namespaces,volume location,operating system access,size configuration'
 summary: 'Create an NVMe namespace'
 ---
 
 = Create an NVMe namespace
 :imagesdir: ./media/
 
+[.lead]
+Creates an NVMe namespace within an existing SVM and volume, defining its base name, operating system type, and size. You use this endpoint to establish new NVMe storage resources for your data access needs.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/storage/namespaces`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Creates an NVMe namespace.
+ONTAP 9.6
 
 == Required properties
 

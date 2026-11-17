@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-network-ethernet-ports.html'
+keywords: 'ethernet ports,cluster ports,vlan ports,lag ports,network port show,network port vlan'
 summary: 'Retrieve ports'
 ---
 
 = Retrieve ports
 :imagesdir: ./media/
 
+[.lead]
+Retrieves a collection of physical, VLAN, and LAG ports for the entire cluster, helping you understand the network configuration and connectivity.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/network/ethernet/ports`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves a collection of ports (physical, VLAN and LAG) for an entire cluster.
 

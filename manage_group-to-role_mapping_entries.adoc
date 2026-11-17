@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_group-to-role_mapping_entries.html'
+keywords: 'group mapping,role mapping,ontap roles,security management,group roles'
 summary: 'Manage group-to-role mapping entries'
 ---
 
 = Manage group-to-role mapping entries
 :imagesdir: ./media/
 
-
+[.lead]
+Manage group-to-role mapping entries to define access controls and permissions within your ONTAP environment. Use these endpoints to create, retrieve, and review mappings that link groups to specific ONTAP roles.
 
 === Overview
 

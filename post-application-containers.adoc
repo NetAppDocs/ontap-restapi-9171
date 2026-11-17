@@ -3,6 +3,7 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-application-containers.html'
+keywords: 'provisioning storage,return timeout,return records,storage containers'
 summary: '
 * post is not supported
 
@@ -17,9 +18,18 @@ summary: '
 
 :imagesdir: ./media/
 
+[.lead]
+The operation to create resources is not supported with this endpoint, indicating that you cannot use it to initiate new resource creation.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/application/containers`#
 
-*Introduced In:* 9.17
+== Introduced in
+
+ONTAP 9.17
+
+== Usage notes
 
 * POST is not supported
 

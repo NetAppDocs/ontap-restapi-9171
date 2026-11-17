@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_key_managers.html'
+keywords: 'key management,volume encryption,NVE volumes,external key manager,onboard key manager'
 summary: 'Manage key managers'
 ---
 
 = Manage key managers
 :imagesdir: ./media/
 
-
+[.lead]
+Use key manager endpoints to securely manage encryption keys across your ONTAP environment. These endpoints enable configuration of both external and onboard key managers at cluster and SVM scopes, supporting diverse key management needs.
 
 == Overview
 

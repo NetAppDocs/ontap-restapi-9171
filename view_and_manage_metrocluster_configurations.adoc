@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_and_manage_metrocluster_configurations.html'
+keywords: 'metrocluster,configuration,switchover,dr pairs,mediator,cluster peering'
 summary: 'View and manage MetroCluster configurations'
 ---
 
 = View and manage MetroCluster configurations
 :imagesdir: ./media/
 
-
+[.lead]
+Utilize the MetroCluster API to establish, modify, and monitor MetroCluster configurations. Retrieve the current status and configuration parameters of both local and partner clusters, or initiate operations such as switchover, healing, or switchback.
 
 = Overview
 

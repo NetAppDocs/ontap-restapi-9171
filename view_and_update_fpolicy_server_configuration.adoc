@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_and_update_fpolicy_server_configuration.html'
+keywords: 'fpolicy server,connection status,svm connections,passthrough read,disconnected reason,update configuration'
 summary: 'View and update FPolicy server configuration'
 ---
 
 = View and update FPolicy server configuration
 :imagesdir: ./media/
 
-
+[.lead]
+View and update FPolicy server configuration endpoints display and modify connection status information for external FPolicy servers. Use these endpoints to manage passthrough-read and server connections across all Storage Virtual Machines (SVMs) in your cluster.
 
 == Overview
 

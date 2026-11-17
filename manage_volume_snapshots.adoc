@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_volume_snapshots.html'
+keywords: 'manage snapshots,snapshot operations,volume snapshots,snapshot retrieval,snapshot deletion'
 summary: 'Manage volume snapshots'
 ---
 
 = Manage volume snapshots
 :imagesdir: ./media/
 
-
+[.lead]
+Explore snapshot management endpoints to create, modify, delete, and retrieve volume snapshots in your storage environment. Utilize bulk operations to manage snapshots across multiple volumes efficiently.
 
 == Overview
 

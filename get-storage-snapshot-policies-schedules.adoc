@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-snapshot-policies-schedules.html'
+keywords: 'snapshot policy schedules,snapshot policy uuid,snapshot schedules,retention period,snapmirror label'
 summary: 'Retrieve snapshot policy schedules'
 ---
 
 = Retrieve snapshot policy schedules
 :imagesdir: ./media/
 
+[.lead]
+Accesses snapshot policy schedules to view the timing configurations for snapshot creation within your storage system. This information helps you manage and verify schedule settings for data protection workflows.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/snapshot-policies/{snapshot_policy.uuid}/schedules`#
 
-*Introduced In:* 9.8
+== Introduced in
+
+ONTAP 9.8
+
+== Usage notes
 
 Retrieves a collection of snapshot policy schedules.
 

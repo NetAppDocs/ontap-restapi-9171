@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_and_update_kerberos_interfaces.html'
+keywords: 'kerberos configuration,nfs kerberos,kerberos interface,kerberos update,kerberos retrieve'
 summary: 'View and update Kerberos interfaces'
 ---
 
 = View and update Kerberos interfaces
 :imagesdir: ./media/
 
-
+[.lead]
+Access and modify Kerberos interface configurations to manage secure authentication for NFS protocols. Retrieve current interface settings or update them as needed to ensure proper functionality and security within your network environment.
 
 == Examples
 

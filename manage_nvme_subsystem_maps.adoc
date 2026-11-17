@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_nvme_subsystem_maps.html'
+keywords: 'nvme subsystem,subsystem map,nvme namespace,map creation,map deletion,namespace access'
 summary: 'Manage NVMe subsystem maps'
 ---
 
 = Manage NVMe subsystem maps
 :imagesdir: ./media/
 
-
+[.lead]
+Manage NVMe subsystem maps to associate NVMe namespaces with NVMe subsystems, granting access to the subsystem's hosts. Use these endpoints to create, delete, and discover NVMe subsystem maps, establishing a one-to-many relationship between subsystems and namespaces.
 
 == Overview
 

@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-flexcache-flexcaches.html'
+keywords: 'flexcache retrieval,cluster flexcache,storage flexcache,flexcache volume,space guarantee'
 summary: 'Retrieve a FlexCache volume in the cluster'
 ---
 
 = Retrieve a FlexCache volume in the cluster
 :imagesdir: ./media/
 
+[.lead]
+Retrieves a FlexCache volume within the cluster, accessing detailed information about its configuration and properties. Use this endpoint to gain insights into FlexCache attributes, such as size, state, and space guarantee, for efficient data management and troubleshooting.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/flexcache/flexcaches`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves FlexCache in the cluster.
 

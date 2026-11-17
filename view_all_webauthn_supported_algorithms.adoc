@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_all_webauthn_supported_algorithms.html'
+keywords: 'webauthn, supported algorithms, authentication algorithms, algorithm list, sha-256'
 summary: 'View all WebAuthn supported algorithms'
 ---
 
 = View all WebAuthn supported algorithms
 :imagesdir: ./media/
 
-
+[.lead]
+Retrieve the list of supported WebAuthn algorithms for authentication purposes. These endpoints help you determine which cryptographic algorithms are available for secure user verification.
 
 == Overview
 

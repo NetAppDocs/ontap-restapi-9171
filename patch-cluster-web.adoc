@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-cluster-web.html'
+keywords: 'web services configuration,web services update,cluster web,web services modify,web services patch'
 summary: 'Update the web services configuration'
 ---
 
 = Update the web services configuration
 :imagesdir: ./media/
 
+[.lead]
+Updates the web services configuration to apply new settings or changes that enhance service functionality or security.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/cluster/web`#
 
-*Introduced In:* 9.10
+== Introduced in
 
-Updates the web services configuration.
+ONTAP 9.10
 
 == Related ONTAP commands
 

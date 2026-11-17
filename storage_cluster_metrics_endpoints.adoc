@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'storage_cluster_metrics_endpoints.html'
+keywords: 'storage cluster,capacity metrics,historical space,available space,used space,timestamp range'
 summary: 'ONTAP REST API storage cluster metrics endpoints'
 ---
 
 = ONTAP REST API storage cluster metrics endpoints
 :imagesdir: ./media/
 
-
+[.lead]
+Retrieve historical capacity metrics across your storage cluster to analyze space usage trends over time. Use these endpoints to access data for specific intervals or timestamps, aiding in capacity planning and management.
 
 == Overview
 

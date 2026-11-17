@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-network-ip-interfaces.html'
+keywords: 'network interface,cluster scoped,svm scoped,ip interface,interface creation,interface service policy'
 summary: 'Create a new cluster-scoped or SVM-scoped interface'
 ---
 
 = Create a new cluster-scoped or SVM-scoped interface
 :imagesdir: ./media/
 
+[.lead]
+Creates a new interface at the cluster or SVM scope, configuring its network properties for communication within an ONTAP environment. You typically use this endpoint to establish interfaces that manage traffic types such as NAS, SAN, or system management within specified scopes.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/network/ip/interfaces`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Creates a new Cluster-scoped or SVM-scoped interface.
 

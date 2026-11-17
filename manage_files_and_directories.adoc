@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_files_and_directories.html'
+keywords: 'file management,directory management,file properties,file metadata,symlink creation'
 summary: 'Manage files and directories'
 ---
 
 = Manage files and directories
 :imagesdir: ./media/
 
-
+[.lead]
+This API provides endpoints to manage files and directories within the ONTAP storage environment. You can perform operations such as reading and writing file data, retrieving metadata, and managing directory structures. These capabilities are essential for maintaining efficient storage organization and accessing file system analytics.
 
 == Overview
 

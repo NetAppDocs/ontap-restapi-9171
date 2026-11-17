@@ -3,17 +3,26 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-vscan.html'
+keywords: 'vscan configuration,vscan enabled,vscan scanner pools,on-access policies,on-demand policies'
 summary: 'Retrieve the Vscan configuration'
 ---
 
 = Retrieve the Vscan configuration
 :imagesdir: ./media/
 
+[.lead]
+Retrieves the Vscan configuration to access details about scanner pools, On-Access policies, and On-Demand policies, as well as the current status of Vscan enablement on an SVM. This is useful for managing and monitoring the virus scanning settings on your storage virtual machine.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/vscan`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves the Vscan configuration.
+ONTAP 9.6
+
+== Usage notes
+
 This includes scanner-pools, On-Access policies, On-Demand policies, and information about whether a Vscan is enabled or disabled on an SVM.
 
 Important notes:

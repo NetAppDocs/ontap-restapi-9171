@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'delete-protocols-cifs-services-.html'
+keywords: 'cifs server,delete cifs,local cifs,force delete,active directory,netbios aliases'
 summary: 'Delete a CIFS server and related configurations'
 ---
 
 = Delete a CIFS server and related configurations
 :imagesdir: ./media/
 
+[.lead]
+Deletes a CIFS server along with its related CIFS configurations. Use this operation to remove an existing CIFS setup from your system when it is no longer needed.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-delete]#DELETE# [.api-doc-code-block]#`/protocols/cifs/services/{svm.uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Deletes a CIFS server and related CIFS configurations.
 

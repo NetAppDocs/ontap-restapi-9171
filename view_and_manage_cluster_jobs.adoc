@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_and_manage_cluster_jobs.html'
+keywords: 'cluster jobs,job state,long-running jobs,asynchronous operations,job manipulation'
 summary: 'View and manage cluster jobs'
 ---
 
 = View and manage cluster jobs
 :imagesdir: ./media/
 
-
+[.lead]
+Use this API to view and manage cluster jobs, which represent asynchronous operations within the system. You might manipulate jobs to pause or cancel long-running operations as needed. Once a job reaches a terminal state, it is automatically deleted after a default period, making further requests to it result in a 404 error.
 
 == Overview
 

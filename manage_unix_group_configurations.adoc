@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_unix_group_configurations.html'
+keywords: 'unix group configuration,local unix groups,data svm,group information,retrieve unix group'
 summary: 'Manage UNIX group configurations'
 ---
 
 = Manage UNIX group configurations
 :imagesdir: ./media/
 
-
+[.lead]
+Manage UNIX group configurations by displaying local UNIX group information and controlling UNIX group settings within data SVMs. Use these endpoints to retrieve, create, update, and delete UNIX group configurations efficiently.
 
 == Overview
 

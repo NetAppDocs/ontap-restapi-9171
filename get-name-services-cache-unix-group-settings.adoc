@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-name-services-cache-unix-group-settings.html'
+keywords: 'unix group,cache settings,name services,svm filter,cache propagation'
 summary: 'Retrieve UNIX group cache settings'
 ---
 
 = Retrieve UNIX group cache settings
 :imagesdir: ./media/
 
+[.lead]
+Accesses the UNIX group cache settings to view the current configuration for managing UNIX group information within your network environment. This is useful for troubleshooting or verifying settings related to name services.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/name-services/cache/unix-group/settings`#
 
-*Introduced In:* 9.11
+== Introduced in
+
+ONTAP 9.11
+
+== Usage notes
 
 Retrieves unix-group cache settings.
 

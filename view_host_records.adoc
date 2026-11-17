@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_host_records.html'
+keywords: 'host records,ip address lookup,hostname lookup,host table entries,name services,svm uuid'
 summary: 'View host records'
 ---
 
 = View host records
 :imagesdir: ./media/
 
-
+[.lead]
+Access and display host records by retrieving the IP address for a specified hostname and vice versa. Use these endpoints to manage and query host table entries efficiently within your network environment.
 
 == Overview
 

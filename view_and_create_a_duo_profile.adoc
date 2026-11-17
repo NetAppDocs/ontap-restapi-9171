@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_and_create_a_duo_profile.html'
+keywords: 'duo profile,secure shell,cluster scoped profile,svm scoped profile,retrieve duo profiles'
 summary: 'View and create a Duo profile'
 ---
 
 = View and create a Duo profile
 :imagesdir: ./media/
 
-
+[.lead]
+Configure Duo profiles for secure shell (SSH) access using these endpoints to enhance security for cluster and SVM accounts. Create and retrieve profiles by specifying integration details and owner information as needed for your environment.
 
 == Overview
 

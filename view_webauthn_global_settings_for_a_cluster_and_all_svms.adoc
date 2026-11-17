@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_webauthn_global_settings_for_a_cluster_and_all_svms.html'
+keywords: 'webauthn settings,cluster security,svm security,webauthn cluster,webauthn svm'
 summary: 'View WebAuthn global settings for a cluster and all SVMs'
 ---
 
 = View WebAuthn global settings for a cluster and all SVMs
 :imagesdir: ./media/
 
-
+[.lead]
+Use this API endpoint to retrieve WebAuthn global settings for a cluster and all SVMs. Access these settings to configure and monitor authentication processes across your environment.
 
 == Overview
 

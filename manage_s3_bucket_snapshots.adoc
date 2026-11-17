@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_s3_bucket_snapshots.html'
+keywords: 's3 bucket snapshots,snapshot creation,snapshot deletion,snapshot retrieval,snapshot policies'
 summary: 'Manage S3 bucket snapshots'
 ---
 
 = Manage S3 bucket snapshots
 :imagesdir: ./media/
 
-
+[.lead]
+Utilize S3 bucket snapshot endpoints to create, delete, and retrieve images of your buckets as they exist at specific points in time. Scheduled policies or manual requests can initiate snapshot creation, providing flexibility in managing bucket states and data consistency.
 
 == Overview
 

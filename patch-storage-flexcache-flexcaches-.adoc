@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-storage-flexcache-flexcaches-.html'
+keywords: 'flexcache prepopulate,flexcache modify,flexcache configuration,volume uuid,writeback enabled,relative size'
 summary: 'Pre-populate a FlexCache volume in the cluster'
 ---
 
 = Pre-populate a FlexCache volume in the cluster
 :imagesdir: ./media/
 
+[.lead]
+Prepopulates a FlexCache volume in the cluster to optimize data access and performance, or modify its configuration based on your requirements.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/storage/flexcache/flexcaches/{uuid}`#
 
-*Introduced In:* 9.8
+== Introduced in
+
+ONTAP 9.8
+
+== Usage notes
 
 Prepopulates a FlexCache volume in the cluster, or modifies configuration of the FlexCache volume.
 

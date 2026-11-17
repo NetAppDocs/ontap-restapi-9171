@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_and_create_vscan_configuration.html'
+keywords: 'vscan configuration,vscan protection,data protection,antivirus integration,storage scanning,scanner pools'
 summary: 'View and create Vscan configuration'
 ---
 
 = View and create Vscan configuration
 :imagesdir: ./media/
 
-
+[.lead]
+Use Vscan endpoints to safeguard your data against viruses and malicious code. By offloading scanning tasks to external servers with third-party antivirus software, you can flexibly manage which files are scanned and when. Note that Vscan is not supported on continuous availability shares.
 
 == Overview
 

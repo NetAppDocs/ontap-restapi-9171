@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_cifs_domain-related_information.html'
+keywords: 'cifs domain,trust relationships,server discovery,preferred dcs,password schedule,home domain'
 summary: 'Manage CIFS domain-related information'
 ---
 
 = Manage CIFS domain-related information
 :imagesdir: ./media/
 
-
+[.lead]
+Access CIFS domain-related information for a specified SVM to understand its configuration and trust relationships. Use these endpoints to retrieve detailed fields, modify settings, or manage passwords for domain configurations.
 
 == Overview
 

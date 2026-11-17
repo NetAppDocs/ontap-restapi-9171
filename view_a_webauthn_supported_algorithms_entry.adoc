@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_a_webauthn_supported_algorithms_entry.html'
+keywords: 'webauthn algorithms,security algorithms,webauthn entry,supported algorithms,cluster uuid'
 summary: 'View a WebAuthn supported algorithms entry'
 ---
 
 = View a WebAuthn supported algorithms entry
 :imagesdir: ./media/
 
-
+[.lead]
+Retrieve specific WebAuthn supported algorithms entries to verify the algorithms available for authentication within your cluster or SVM environment. Use the endpoint to access detailed information, guiding security configurations and ensuring compatibility with your authentication requirements.
 
 == Overview
 

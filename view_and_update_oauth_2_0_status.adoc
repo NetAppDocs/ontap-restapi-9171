@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_and_update_oauth_2_0_status.html'
+keywords: 'oauth 2.0,enable oauth,disable oauth,cluster security,authentication status'
 summary: 'View and update OAuth 2.0 status'
 ---
 
 = View and update OAuth 2.0 status
 :imagesdir: ./media/
 
-
+[.lead]
+Use this API to view and update the OAuth 2.0 status in your cluster. You can enable or disable OAuth 2.0 using the PATCH request, ensuring secure authentication management.
 
 == Overview
 

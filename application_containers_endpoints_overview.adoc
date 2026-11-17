@@ -3,13 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'application_containers_endpoints_overview.html'
+keywords: 'ontap rest, ontap automation, ontap storage, rest hypermedia, rest query parameters'
 summary: 'application containers endpoints overview'
 ---
 
 = application containers endpoints
 :imagesdir: ./media/
 
-
+[.lead]
+Explore the ONTAP REST API, which offers a comprehensive set of endpoints to interact with ONTAP resources programmatically. This guide provides an overview of available API calls, detailing how they can be used to manage clusters, storage, and network configurations efficiently. Whether you're provisioning storage or monitoring system status, these endpoints support diverse operational needs.
 
 == Overview
 

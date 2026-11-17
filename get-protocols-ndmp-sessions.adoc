@@ -3,15 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-ndmp-sessions.html'
+keywords: 'ndmp sessions,ndmp protocol,svm scope,node scope,backup engine,data ip'
 summary: 'Retrieve NDMP sessions'
 ---
 
 = Retrieve NDMP sessions
 :imagesdir: ./media/
 
+[.lead]
+Accesses a collection of NDMP sessions, viewing session details based on the scope and execution context within the ONTAP system.
+
+== HTTP method and endpoint
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/ndmp/sessions`#
 
-*Introduced In:* 9.7
+== Introduced in
+
+ONTAP 9.7
+
+== Usage notes
 
 Retrieves a collection of NDMP sessions. In the case of SVM-scope, if this API is executed on a data IP, it displays the list of NDMP sessions under the specified SVM; otherwise it displays the list of NDMP sessions for all the SVMs under the cluster. In the case of node-scope, it displays the list of NDMP sessions for all nodes.
 
